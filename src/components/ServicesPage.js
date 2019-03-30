@@ -27,11 +27,3 @@ const ServicesPage = () => {
 };
 
 export default ServicesPage;
-
-/*
-    <section className='main--services'>
-        <h2 className='services-title'>Services</h2> 
-        <ServicesCard cardTitle='pet' services={petServices}/>
-        <ServicesCard cardTitle='home' services={homeServices}/>
-    </section>
-*/
