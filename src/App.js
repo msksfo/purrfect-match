@@ -1,28 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom';
+import HomePage from './components/HomePage';
+import AboutPage from './components/AboutPage';
+import ServicesPage from './components/ServicesPage';
+import ContactPage from './components/ContactPage';
+import MessageDelivered from './components/MessageDelivered';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faPhoneVolume, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
+library.add( faEnvelope, faPhoneVolume, faFacebook, faFacebookSquare)
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <BrowserRouter>
+                <div>
+                    <Route exact path="/" component={HomePage} />
+                    <Route path="/about" component={AboutPage} />
+                    <Route path="/services" component={ServicesPage} />
+                    <Route path="/contact" component={ContactPage} />
+                     <Route path="/success" component={MessageDelivered} />
+                </div>
+            </BrowserRouter>
+        );
+    }
 }
 
 export default App;

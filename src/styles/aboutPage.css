@@ -1,0 +1,81 @@
+.about-wrapper {
+    background-color: #fff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.about {
+    flex: 1;
+    padding: 3rem 0;
+    display: grid;
+    overflow-y: scroll;
+}
+
+/* these images are purely decorative. no need to download them to smartphones*/
+.about--decorative-images-wrapper {
+    display: none;
+}
+
+/* these are the thumbnail images forming the border along the top of the page */
+.decorative-image {
+    display: block;
+    width: 45px;
+}
+
+/* the figure element wrapping the profile pic */
+.about--image-wrapper {
+    border: 1px solid #1b44b8;
+
+    padding: 0.5rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.about--image {
+    border: 1px solid #1e2638;
+    display: block;
+
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.about--summary {
+    text-align: left;
+    padding: 0 2rem;
+}
+
+.about--summary > h1 {
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 800px) {
+    .about {
+        align-content: center;
+        padding: 2rem;
+        margin: 2rem 0;
+        flex: 1;
+        grid-template-columns: 300px 1fr;
+    }
+
+    .about--decorative-images-wrapper {
+        overflow: hidden;
+        height: 45px;
+        display: flex;
+    }
+
+    .about--image-wrapper {
+        border: none;
+
+        padding: 0;
+    }
+
+    .about--summary > h1 {
+        margin-top: 0;
+    }
+}

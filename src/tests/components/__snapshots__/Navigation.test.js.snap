@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render the navigation component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Navigation />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul
+        className="navbar--ul"
+      >
+        <li
+          className="navbar--li"
+        >
+          Home
+        </li>
+        <li
+          className="navbar--li"
+        >
+          About
+        </li>
+        <li
+          className="navbar--li"
+        >
+          Services
+        </li>
+        <li
+          className="navbar--li"
+        >
+          Contact
+        </li>
+      </ul>,
+      "className": "navbar",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="navbar--li"
+          >
+            Home
+          </li>,
+          <li
+            className="navbar--li"
+          >
+            About
+          </li>,
+          <li
+            className="navbar--li"
+          >
+            Services
+          </li>,
+          <li
+            className="navbar--li"
+          >
+            Contact
+          </li>,
+        ],
+        "className": "navbar--ul",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Home",
+            "className": "navbar--li",
+          },
+          "ref": null,
+          "rendered": "Home",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "About",
+            "className": "navbar--li",
+          },
+          "ref": null,
+          "rendered": "About",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Services",
+            "className": "navbar--li",
+          },
+          "ref": null,
+          "rendered": "Services",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Contact",
+            "className": "navbar--li",
+          },
+          "ref": null,
+          "rendered": "Contact",
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul
+          className="navbar--ul"
+        >
+          <li
+            className="navbar--li"
+          >
+            Home
+          </li>
+          <li
+            className="navbar--li"
+          >
+            About
+          </li>
+          <li
+            className="navbar--li"
+          >
+            Services
+          </li>
+          <li
+            className="navbar--li"
+          >
+            Contact
+          </li>
+        </ul>,
+        "className": "navbar",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className="navbar--li"
+            >
+              Home
+            </li>,
+            <li
+              className="navbar--li"
+            >
+              About
+            </li>,
+            <li
+              className="navbar--li"
+            >
+              Services
+            </li>,
+            <li
+              className="navbar--li"
+            >
+              Contact
+            </li>,
+          ],
+          "className": "navbar--ul",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Home",
+              "className": "navbar--li",
+            },
+            "ref": null,
+            "rendered": "Home",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "About",
+              "className": "navbar--li",
+            },
+            "ref": null,
+            "rendered": "About",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Services",
+              "className": "navbar--li",
+            },
+            "ref": null,
+            "rendered": "Services",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Contact",
+              "className": "navbar--li",
+            },
+            "ref": null,
+            "rendered": "Contact",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

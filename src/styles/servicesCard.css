@@ -1,0 +1,30 @@
+.main--services-card {
+    background-color: #fffbee;
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.46);
+}
+
+.main--services-title {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: #fdc302;
+    color: #333;
+
+    font-weight: 600;
+    text-align: center;
+}
+
+.other-services a {
+    color: #333;
+    padding: 0;
+    display: inline;
+    text-decoration: underline;
+    transition: all 0.2s ease;
+}
+
+.other-services a:hover {
+    background-color: #afabf3;
+    padding: 5px;
+}

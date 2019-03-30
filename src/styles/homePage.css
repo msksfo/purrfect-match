@@ -1,0 +1,29 @@
+.App {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+}
+
+.App--inner-wrapper {
+    overflow-y: scroll;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /*
+    this doesn't work (top is cut off) because the content is larger than the flex container
+
+    justify-content: space-evenly;
+    */
+    padding: 1rem;
+}
+
+.logo {
+    margin: 1rem 0 auto;
+
+    max-height: 50vh;
+}
