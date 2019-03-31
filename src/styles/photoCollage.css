@@ -1,0 +1,18 @@
+/* these images are purely decorative. no need to download them to smartphones*/
+.about--decorative-images-wrapper {
+    display: none;
+}
+
+/* these are the thumbnail images forming the border along the top of the page */
+.decorative-image {
+    display: block;
+    width: 45px;
+}
+
+@media screen and (min-width: 800px) {
+    .about--decorative-images-wrapper {
+        overflow: hidden;
+        height: 45px;
+        display: flex;
+    }
+}

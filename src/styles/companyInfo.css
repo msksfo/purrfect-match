@@ -1,0 +1,35 @@
+.company-info > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.company-info {
+    background-color: #42406c;
+    color: white;
+    padding: 1rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.info {
+    margin-left: 8px;
+}
+
+/* the a tag linking to facebook */
+.social-link {
+    display: inline;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    cursor: pointer;
+    color: #fdc302;
+}
+
+@media screen and (min-width: 700px) {
+    .company-info > * {
+        text-align: left;
+    }
+}

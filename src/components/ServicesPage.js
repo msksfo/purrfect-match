@@ -1,11 +1,8 @@
 import React from 'react';
 import '../styles/servicesPage.css';
 import Navigation from '../components/Navigation';
-
 import Services from '../components/Services';
 import Testimonials from '../components/Testimonials';
-
-
 
 
 const ServicesPage = () => {
