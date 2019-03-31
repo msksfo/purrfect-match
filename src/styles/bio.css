@@ -2,7 +2,7 @@
     flex: 1;
     padding: 3rem 0;
     display: grid;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 /* the figure element wrapping the profile pic */
