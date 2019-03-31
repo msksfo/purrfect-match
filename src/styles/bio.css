@@ -1,7 +1,6 @@
 .about {
     flex: 1;
     padding: 3rem 0;
-    display: grid;
     overflow-y: auto;
 }
 
@@ -31,10 +30,15 @@
 
 @media screen and (min-width: 800px) {
     .about {
-        grid-template-columns: 300px 1fr;
-        padding: 70px;
         max-width: 1100px;
         margin: 0 auto;
+        padding: 70px;
+    }
+
+    .about--inner-wrapper {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        margin: auto;
     }
 
     .about--image-wrapper {
