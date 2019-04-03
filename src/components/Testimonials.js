@@ -42,7 +42,8 @@ const Testimonials = (props) => {
                         <li key={index} 
                         className='main--testimonials-testimonial'>
                             <div>
-                                {(index % 2 !== 0) ? <img className='pet-profilePic odd-images' src={value.image} alt='' /> : <img className='pet-profilePic' src={value.image} alt='' />}
+                            {/* alternate the photo/text alignment. odd indexed users to the right. even to the left. */}
+                                {(index % 2 !== 0) ? <img className='pet-profilePic odd-images' src={value.image} alt={value.name} /> : <img className='pet-profilePic' src={value.image} alt={value.name} />}
                                 
                                
                                 {(index % 2 !== 0) ? <p className='main--testimonials-odd'>{value.testimonial} <span className='main--testimonials-name'> ~ {value.name}</span></p> : <p className='main--testimonials-even'>{value.testimonial} <span className='main--testimonials-name'> ~ {value.name}</span></p> }
@@ -55,7 +56,7 @@ const Testimonials = (props) => {
                 })}
             </ul>
             
-            <p className='main--testimonials-human'>** Human testimonials available upon request</p>
+            <p className='main--testimonials-human'>** Human references available upon request</p>
         </section>
     )
 }
