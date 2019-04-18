@@ -1,5 +1,8 @@
 .main--services {
     padding: 1rem;
+}
+
+.main--services-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
     justify-content: space-evenly;
@@ -8,6 +11,6 @@
 
 .services-title {
     font-weight: 600;
-    grid-column: 1 / -1;
-    margin-bottom: 19.92px;
+    margin-bottom: 43.92px;
+    padding-left: 1rem;
 }

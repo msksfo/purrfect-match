@@ -35,12 +35,7 @@ const userReviews = [
 const Testimonials = props => {
     return (
         <section className="main--testimonials">
-            {/*  this title wrapper is div is needed to match up the section title alignment with the services section title */}
-            <div className="main--testimonials-title-wrapper">
-                <h2 className="main--testimonials-title">
-                    {props.sectionName}
-                </h2>
-            </div>
+            <h2 className="main--testimonials-title">{props.sectionName}</h2>
 
             <ul className="main--testimonials-ul">
                 {userReviews.map((value, index) => {

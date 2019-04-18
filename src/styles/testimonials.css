@@ -16,10 +16,6 @@
 
 .main--testimonials {
     padding: 1rem;
-    /*
-    max-width: 550px;
-    margin: 0 auto;
-    */
 }
 
 .main--testimonials-testimonial {
@@ -32,22 +28,14 @@
     list-style: none;
     padding: 0;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 30px;
     max-width: 550px;
     margin: 0 auto;
 }
 
-.main--testimonials-title-wrapper {
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
-    justify-content: space-evenly;
-    grid-gap: 30px;
-}
-
 .main--testimonials-title {
     font-weight: 600;
-    grid-column: 1 / -1;
+    padding-left: 1rem;
     padding-bottom: 1.5rem;
     margin-top: 0;
 }
