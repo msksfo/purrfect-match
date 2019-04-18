@@ -16,8 +16,10 @@
 
 .main--testimonials {
     padding: 1rem;
+    /*
     max-width: 550px;
     margin: 0 auto;
+    */
 }
 
 .main--testimonials-testimonial {
@@ -31,12 +33,23 @@
     padding: 0;
     display: grid;
     grid-gap: 20px;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.main--testimonials-title-wrapper {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    justify-content: space-evenly;
+    grid-gap: 30px;
 }
 
 .main--testimonials-title {
     font-weight: 600;
     grid-column: 1 / -1;
     padding-bottom: 1.5rem;
+    margin-top: 0;
 }
 
 .main--testimonials-odd {
@@ -63,5 +76,6 @@
 
 .main--testimonials-human {
     font-style: italic;
-    margin-top: 2rem;
+    margin: 2rem auto 1rem auto;
+    max-width: 550px;
 }
