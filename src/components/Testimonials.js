@@ -13,19 +13,19 @@ const userReviews = [
         image: cirrus,
     },
     {
-        name: 'Cute Doggy',
+        name: 'Lucy',
         testimonial:
             'Sarah is the best. She comes to visit me when my family is away. We go for long walks, and sometimes play in the park. Woof woof!',
         image: dog2,
     },
     {
-        name: 'Pretty Kitty',
+        name: 'Lilo',
         testimonial:
             'I love Sarah. Meow. I never worry when my humans travel, because I know Sarah will take good care of me. Plus, she brings treats!',
         image: cat3,
     },
     {
-        name: 'Nice Doggy',
+        name: 'Simona',
         testimonial:
             'Sarah gets five stars from me. She takes me outside where I can sniff everything. Sometimes we play fetch too. Bark bark.',
         image: dog1,
