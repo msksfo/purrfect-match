@@ -28,7 +28,7 @@ This is a simple website for a pet sitting business, made with React.js
 
 ## Live link
 
-Don't feel like bothering with installation? See the live app here https://purrrfect-match.netlify.com
+Don't feel like bothering with installation? See the live app here https://purr-fect-match.netlify.com/
 
 ## Create React App
 
